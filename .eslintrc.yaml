@@ -1,0 +1,21 @@
+root: true
+reportUnusedDisableDirectives: true
+
+extends:
+  - eslint-config-silverwind
+
+plugins:
+  - "@typescript-eslint"
+
+settings:
+  import/extensions: [.js, .jsx, .ts, .tsx]
+
+overrides:
+  - files: ["**/*.ts", "**/*.tsx"]
+    extends:
+      - plugin:@typescript-eslint/recommended
+    parser: "@typescript-eslint/parser"
+    settings:
+      import/resolver:
+        typescript: true
+        node: true

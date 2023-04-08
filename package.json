@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-silverwind-typescript",
+  "version": "0.1.0",
+  "description": "Exhaustive ESLint configuration with typescript",
+  "author": "silverwind <me@silverwind.io>",
+  "repository": "silverwind/eslint-config-silverwind-typescript",
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "main": "./index.json",
+  "exports": "./index.json",
+  "files": [
+    "index.json"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint-import-resolver-typescript": "3.5.5"
+  },
+  "devDependencies": {
+    "eslint": "8.38.0",
+    "js-yaml": "4.1.0",
+    "updates": "13.4.0",
+    "versions": "10.4.2"
+  }
+}
