@@ -12,6 +12,4 @@ overrides:
       - plugin:@typescript-eslint/recommended
     parser: "@typescript-eslint/parser"
     settings:
-      import/resolver:
-        typescript: true
-        node: true
+      import/resolver: typescript
