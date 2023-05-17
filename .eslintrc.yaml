@@ -1,5 +1,5 @@
 plugins:
-  - "@typescript-eslint"
+  - "@typescript-eslint/eslint-plugin"
 
 settings:
   import/extensions: [.js, .jsx, .ts, .tsx]
