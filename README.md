@@ -8,7 +8,7 @@ In your `.eslintrc.yaml`:
 
 ```yaml
 extends:
-  - silverwind-typescript
+  - eslint-config-silverwind-typescript
 ```
 
 ## Related
