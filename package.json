@@ -12,14 +12,14 @@
     "index.json"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.59.11",
-    "@typescript-eslint/parser": "5.59.11",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.60.1",
     "eslint-import-resolver-typescript": "3.5.5"
   },
   "devDependencies": {
-    "eslint": "8.43.0",
+    "eslint": "8.44.0",
     "js-yaml": "4.1.0",
-    "updates": "14.2.4",
+    "updates": "14.3.0",
     "versions": "11.0.1"
   }
 }
