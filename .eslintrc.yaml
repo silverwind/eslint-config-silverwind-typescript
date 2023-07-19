@@ -13,3 +13,6 @@ overrides:
     parser: "@typescript-eslint/parser"
     settings:
       import/resolver: typescript
+
+rules:
+  "@typescript-eslint/no-unused-vars": [2, {vars: all, args: all, caughtErrors: all, ignoreRestSiblings: false, argsIgnorePattern: ^_, varsIgnorePattern: "^_[^_]*$", caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_}]
