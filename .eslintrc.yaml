@@ -1,5 +1,6 @@
 plugins:
   - "@typescript-eslint/eslint-plugin"
+  - eslint-plugin-etc
 
 extends:
   - plugin:@typescript-eslint/recommended
