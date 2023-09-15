@@ -1,18 +1,24 @@
 plugins:
   - "@typescript-eslint/eslint-plugin"
 
+extends:
+  - plugin:@typescript-eslint/recommended
+
+parser: "@typescript-eslint/parser"
+
+parserOptions:
+  project: true
+
 settings:
   import/extensions: [.js, .jsx, .ts, .tsx]
   import/parsers:
-    "@typescript-eslint/parser": [.ts, .tsx]
+    "@typescript-eslint/parser": [.js, .jsx, .ts, .tsx]
 
 overrides:
   - files: ["**/*.ts", "**/*.tsx"]
-    extends:
-      - plugin:@typescript-eslint/recommended
-    parser: "@typescript-eslint/parser"
     settings:
       import/resolver: typescript
 
 rules:
   "@typescript-eslint/no-unused-vars": [2, {vars: all, args: all, caughtErrors: all, ignoreRestSiblings: false, argsIgnorePattern: ^_, varsIgnorePattern: "^_[^_]*$", caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_}]
+  etc/no-deprecated: [2]

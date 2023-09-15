@@ -11,6 +11,12 @@ extends:
   - eslint-config-silverwind-typescript
 ```
 
+Add `tsconfig.json`:
+
+```bash
+curl -sO https://raw.githubusercontent.com/silverwind/eslint-config-silverwind/master/tsconfig.json
+```
+
 ## Related
 
 - [eslint-config-silverwind](https://github.com/silverwind/eslint-config-silverwind)
