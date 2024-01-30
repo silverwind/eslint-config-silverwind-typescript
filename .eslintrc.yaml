@@ -22,4 +22,3 @@ overrides:
 
 rules:
   "@typescript-eslint/no-unused-vars": [2, {vars: all, args: all, caughtErrors: all, ignoreRestSiblings: false, argsIgnorePattern: ^_, varsIgnorePattern: "^_[^_]*$", caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_}]
-  etc/no-deprecated: [2]
