@@ -9,9 +9,12 @@ deps: node_modules
 build: node_modules
 	node build.js
 
+.PHONY: lint
+lint: node_modules build
+	npx eslint test.ts
+
 .PHONY: test
-test: node_modules build
-	# noop
+test: lint
 
 .PHONY: publish
 publish: node_modules

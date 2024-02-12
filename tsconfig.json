@@ -1,17 +1,9 @@
 {
+  "extends": "typescript-config-silverwind",
   "include": [
     "**/*",
     "**/.*",
     "**/.*/**/*",
     "**/.*/**/.*"
-  ],
-  "compilerOptions": {
-    "allowJs": true,
-    "jsx": "react-jsx",
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
-  }
+  ]
 }
