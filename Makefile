@@ -14,7 +14,8 @@ lint: node_modules build
 	npx eslint test.ts
 
 .PHONY: test
-test: lint
+test: node_modules
+	npx tsc --noEmit test.ts
 
 .PHONY: publish
 publish: node_modules
