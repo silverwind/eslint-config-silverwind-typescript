@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silverwind-typescript",
-  "version": "3.1.5",
+  "version": "3.2.0",
   "description": "Exhaustive ESLint configuration with typescript",
   "author": "silverwind <me@silverwind.io>",
   "repository": "silverwind/eslint-config-silverwind-typescript",
