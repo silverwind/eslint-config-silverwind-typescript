@@ -24,6 +24,7 @@ overrides:
 
 rules:
   "@typescript-eslint/ban-ts-comment": [0]
+  "@typescript-eslint/ban-types": [2, {extendDefaults: true, types: {Function: false}}]
   "@typescript-eslint/no-explicit-any": [0]
   "@typescript-eslint/no-floating-promises": [0]
   "@typescript-eslint/no-misused-promises": [2, {checksVoidReturn: {attributes: false, arguments: false}}]
