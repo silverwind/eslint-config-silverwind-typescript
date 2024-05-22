@@ -36,6 +36,6 @@ rules:
   "@typescript-eslint/no-unsafe-member-access": [0]
   "@typescript-eslint/no-unsafe-return": [0]
   "@typescript-eslint/no-unused-vars": [2, {vars: all, args: all, caughtErrors: all, ignoreRestSiblings: false, argsIgnorePattern: ^_, varsIgnorePattern: "^_[^_]*$", caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_}]
-  etc/no-assign-mutated-array: [2]
+  etc/no-assign-mutated-array: [0] # too agressive
   etc/no-deprecated: [2]
   no-undef: [2, {typeof: true}] # TODO: figure out why the @typescript-eslint rule does not work
