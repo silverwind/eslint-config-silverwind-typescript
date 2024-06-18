@@ -25,6 +25,7 @@ overrides:
 rules:
   "@typescript-eslint/ban-ts-comment": [0]
   "@typescript-eslint/ban-types": [2, {extendDefaults: true, types: {Function: false}}]
+  "@typescript-eslint/no-base-to-string": [0]
   "@typescript-eslint/no-duplicate-type-constituents": [2, {ignoreUnions: true}]
   "@typescript-eslint/no-explicit-any": [0]
   "@typescript-eslint/no-floating-promises": [0]
