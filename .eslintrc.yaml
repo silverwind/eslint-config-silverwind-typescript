@@ -85,7 +85,7 @@ rules:
   "@typescript-eslint/no-unnecessary-boolean-literal-compare": [0]
   "@typescript-eslint/no-unnecessary-condition": [0]
   "@typescript-eslint/no-unnecessary-qualifier": [0]
-  "@typescript-eslint/no-unnecessary-template-expression": [2]
+  "@typescript-eslint/no-unnecessary-template-expression": [0]
   "@typescript-eslint/no-unnecessary-type-arguments": [0]
   "@typescript-eslint/no-unnecessary-type-assertion": [2, typesToIgnore: [HTMLElement]]
   "@typescript-eslint/no-unnecessary-type-constraint": [2]
