@@ -140,5 +140,6 @@ rules:
   no-array-constructor: [0]
   no-implied-eval: [0]
   no-loss-of-precision: [0]
+  no-redeclare: [0] # for overloads
   no-unused-vars: [0]
   require-await: [0]
