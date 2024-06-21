@@ -1,6 +1,6 @@
 plugins:
   - "@typescript-eslint/eslint-plugin"
-  - eslint-plugin-etc
+  - eslint-plugin-deprecation
 
 parser: "@typescript-eslint/parser"
 
@@ -136,8 +136,7 @@ rules:
   "@typescript-eslint/typedef": [0]
   "@typescript-eslint/unbound-method": [2]
   "@typescript-eslint/unified-signatures": [2]
-  etc/no-assign-mutated-array: [0]
-  etc/no-deprecated: [2]
+  deprecation/deprecation: [2]
   no-array-constructor: [0]
   no-implied-eval: [0]
   no-loss-of-precision: [0]
