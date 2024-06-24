@@ -12,16 +12,16 @@
     "./index.json"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "7.13.1",
-    "@typescript-eslint/parser": "7.13.1",
+    "@typescript-eslint/eslint-plugin": "7.14.1",
+    "@typescript-eslint/parser": "7.14.1",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-deprecation": "3.0.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
     "js-yaml": "4.1.0",
-    "typescript": "5.4.5",
-    "typescript-config-silverwind": "5.0.3",
+    "typescript": "5.5.2",
+    "typescript-config-silverwind": "5.1.1",
     "updates": "16.2.0",
     "versions": "12.1.2"
   }
