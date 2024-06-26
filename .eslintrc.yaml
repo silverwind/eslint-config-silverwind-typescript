@@ -116,7 +116,7 @@ rules:
   "@typescript-eslint/prefer-literal-enum-member": [0]
   "@typescript-eslint/prefer-namespace-keyword": [0]
   "@typescript-eslint/prefer-nullish-coalescing": [0]
-  "@typescript-eslint/prefer-optional-chain": [2]
+  "@typescript-eslint/prefer-optional-chain": [2, {requireNullish: true}]
   "@typescript-eslint/prefer-promise-reject-errors": [0]
   "@typescript-eslint/prefer-readonly": [0]
   "@typescript-eslint/prefer-readonly-parameter-types": [0]
