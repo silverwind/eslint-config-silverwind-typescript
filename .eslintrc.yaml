@@ -140,7 +140,7 @@ rules:
   "@typescript-eslint/switch-exhaustiveness-check": [0]
   "@typescript-eslint/triple-slash-reference": [2]
   "@typescript-eslint/typedef": [0]
-  "@typescript-eslint/unbound-method": [2]
+  "@typescript-eslint/unbound-method": [0] # too many false-positives
   "@typescript-eslint/unified-signatures": [2]
   deprecation/deprecation: [2]
   no-array-constructor: [0]
