@@ -11,11 +11,8 @@ build: node_modules
 
 .PHONY: lint
 lint: node_modules build
-	npx eslint test.ts
-
-.PHONY: test
-test: node_modules
-	npx tsc --noEmit test.ts
+	npx eslint --ext js,jsx,ts,tsx --color .
+	npx tsc
 
 .PHONY: publish
 publish: node_modules
@@ -30,17 +27,17 @@ update: node_modules
 	@touch node_modules
 
 .PHONY: patch
-patch: node_modules test
+patch: node_modules lint
 	npx versions -c 'node build.js' patch package.json package-lock.json
 	$(MAKE) --no-print-directory publish
 
 .PHONY: minor
-minor: node_modules test
+minor: node_modules lint
 	npx versions -c 'node build.js' minor package.json package-lock.json
 	$(MAKE) --no-print-directory publish
 
 .PHONY: major
-major: node_modules test
+major: node_modules lint
 	npx versions -c 'node build.js' major package.json package-lock.json
 	$(MAKE) --no-print-directory publish
 

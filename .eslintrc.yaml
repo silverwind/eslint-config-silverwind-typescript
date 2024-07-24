@@ -105,7 +105,7 @@ rules:
   "@typescript-eslint/no-unsafe-unary-minus": [2]
   "@typescript-eslint/no-unused-expressions": [0]
   "@typescript-eslint/no-unused-vars": [2, {vars: all, args: all, caughtErrors: all, ignoreRestSiblings: false, argsIgnorePattern: ^_, varsIgnorePattern: "^_[^_]*$", caughtErrorsIgnorePattern: ^_, destructuredArrayIgnorePattern: ^_}]
-  "@typescript-eslint/no-use-before-define": [2, {"functions": false, "classes": true, "variables": true, "allowNamedExports": true, "typedefs": false, "enum": false, ignoreTypeReferences: true}]
+  "@typescript-eslint/no-use-before-define": [2, {"functions": false, "classes": true, "variables": true, "allowNamedExports": true, "typedefs": false, "enums": false, "ignoreTypeReferences": true}]
   "@typescript-eslint/no-useless-constructor": [0]
   "@typescript-eslint/no-useless-empty-export": [0]
   "@typescript-eslint/no-var-requires": [2]
