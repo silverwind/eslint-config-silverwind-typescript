@@ -12,8 +12,8 @@
     "./index.json"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.0.1",
-    "@typescript-eslint/parser": "8.0.1",
+    "@typescript-eslint/eslint-plugin": "8.1.0",
+    "@typescript-eslint/parser": "8.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-deprecation": "3.0.0"
   },
@@ -22,7 +22,7 @@
     "js-yaml": "4.1.0",
     "typescript": "5.5.4",
     "typescript-config-silverwind": "6.0.0",
-    "updates": "16.3.7",
+    "updates": "16.4.0",
     "versions": "12.1.2"
   }
 }
