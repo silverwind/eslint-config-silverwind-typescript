@@ -55,6 +55,7 @@ rules:
   "@typescript-eslint/no-base-to-string": [0]
   "@typescript-eslint/no-confusing-non-null-assertion": [2]
   "@typescript-eslint/no-confusing-void-expression": [0]
+  "@typescript-eslint/no-deprecated": [2] # slow, see https://github.com/typescript-eslint/typescript-eslint/issues/9857#issuecomment-2311351177
   "@typescript-eslint/no-dupe-class-members": [0]
   "@typescript-eslint/no-duplicate-enum-values": [2]
   "@typescript-eslint/no-duplicate-type-constituents": [2, {ignoreUnions: true}]
