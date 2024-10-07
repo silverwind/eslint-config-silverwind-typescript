@@ -1,6 +1,5 @@
 plugins:
   - "@typescript-eslint/eslint-plugin"
-  - eslint-plugin-deprecation
 
 parser: "@typescript-eslint/parser"
 
@@ -55,7 +54,7 @@ rules:
   "@typescript-eslint/no-base-to-string": [0]
   "@typescript-eslint/no-confusing-non-null-assertion": [2]
   "@typescript-eslint/no-confusing-void-expression": [0]
-  "@typescript-eslint/no-deprecated": [2] # slow, see https://github.com/typescript-eslint/typescript-eslint/issues/9857#issuecomment-2311351177
+  "@typescript-eslint/no-deprecated": [2]
   "@typescript-eslint/no-dupe-class-members": [0]
   "@typescript-eslint/no-duplicate-enum-values": [2]
   "@typescript-eslint/no-duplicate-type-constituents": [2, {ignoreUnions: true}]
@@ -146,7 +145,6 @@ rules:
   "@typescript-eslint/typedef": [0]
   "@typescript-eslint/unbound-method": [0] # too many false-positives
   "@typescript-eslint/unified-signatures": [2]
-  deprecation/deprecation: [2]
   no-array-constructor: [0]
   no-implied-eval: [0]
   no-redeclare: [0] # for overloads
